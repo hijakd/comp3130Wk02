@@ -7,7 +7,7 @@ export default function App() {
     <View style={styles.container}>
       <View style={styles.view1}/>
       <View style={styles.view2}/>
-      <View style={{backgroundColor: '#6dd47e', flex:1,}}/>
+      <View style={styles.view3}/> 
     </View>
   );
 }
@@ -22,14 +22,20 @@ const styles = StyleSheet.create({
   },
   view1:{
     backgroundColor: '#293250',
-    flex:1,
+    // flex:1,
+    height:100,
+    width:100,
   },
   view2:{
     backgroundColor: '#ffd55a',
-    flex:1,
+    // flex:1,
+    height:100,
+    width:100,
   },
-  // view3:{
-  //   backgroundColor: '#6dd47e',
-  //   flex:1,
-  // },
+  view3:{
+    backgroundColor: '#6dd47e',
+    // flex:1,
+    height:100,
+    width:100,
+  },
 })
