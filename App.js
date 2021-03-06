@@ -16,6 +16,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection:"row",
+    // justifyContent:'center', // justifies content along the "main axis"
+    justifyContent:'space-around', // justifies content along the "main axis" with 'padding'
+    alignItems:'center', // aligns items along the "cross axis"
+    
+
+
     // backgroundColor: '#fff',
     // alignItems: 'center',
     // justifyContent: 'center',
